@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Habit Tracking Mobile App",
+    "type": "Mobile Application",
+    "description": "Cross-platform mobile application for habit formation and tracking, featuring data analytics and behavioral insights. Demonstrates product management skills through user-centered design and iterative development approach.",
+    "technologies": ["React Native", "TypeScript", "Node.js", "PostgreSQL", "Firebase"],
+    "status": "In Development",
+    "outcomes": [
+      "Architected scalable database schema for habit tracking and analytics",
+      "Implemented user authentication and data synchronization",
+      "Designed intuitive UX flow based on behavioral psychology principles"
+    ],
+    "github": "#",
+    "demo": "#"
+  },
+  {
+    "title": "Desktop Productivity Suite",
+    "type": "Desktop Application",
+    "description": "Comprehensive desktop application for project management and productivity tracking. Showcases technical program management through complex system architecture and cross-platform deployment strategies.",
+    "technologies": ["Electron", "React", "Python", "SQLite", "REST APIs"],
+    "status": "In Development", 
+    "outcomes": [
+      "Designed modular architecture supporting plugin ecosystem",
+      "Integrated third-party APIs for enhanced functionality",
+      "Established automated testing and CI/CD pipeline"
+    ],
+    "github": "#",
+    "demo": "#"
+  }
+] 
