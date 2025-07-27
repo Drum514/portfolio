@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Technical Program Manager with 8+ years of enterprise systems leadership and cross-functional program management experience." />
-  <meta name="author" content="Technical Program Manager" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Portfolio" }}</title>
+  <meta name="description" content="Technical Program Manager specializing in AI/ML and enterprise systems">
+  <meta name="author" content="Technical Program Manager">
   
-  <title>{{ title }} | Technical Program Manager</title>
-  
-  <!-- Preconnect for performance -->
+  <!-- Preconnect to Google Fonts for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
   
-  <!-- Modern font loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <header>
-    <nav>
-      <div class="nav-brand">
-        <a href="/" aria-label="Home">TPM</a>
-      </div>
-      <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/blog">Blog</a>
-      </div>
-    </nav>
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  
+
   <main>
-    {{ content | safe }}
+    <div class="container">
+      {{ content | safe }}
+    </div>
   </main>
-  
+
   <footer>
-    <p>© 2024 Technical Program Manager Portfolio</p>
+    <div class="container">
+      <p>&copy; 2024 Technical Program Manager Portfolio</p>
+    </div>
   </footer>
 </body>
 </html>
