@@ -16,13 +16,13 @@ html {
 
 /* CSS Variables */
 :root {
-  --color-primary: #3B82F6;
+  --color-primary: #6686b9;
   --color-primary-dark: #1D4ED8;
   --color-secondary: #475569;
   --color-secondary-dark: #334155;
-  --color-background: #F8FAFC;
-  --color-surface: #FFFFFF;
-  --color-surface-alt: #F1F5F9;
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-alt: #ffffff;
   --color-text-primary: #0F172A;
   --color-text-secondary: #475569;
   --color-text-muted: #64748B;
