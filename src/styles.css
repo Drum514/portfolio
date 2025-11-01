@@ -43,6 +43,7 @@ body {
   line-height: 1.6;
   color: var(--color-text-primary);
   background-color: var(--color-background);
+  padding: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -103,14 +104,13 @@ main {
 }
 
 section {
-  padding: var(--space-xl) 0;
+  padding: var(--space-sm) 0;
 }
 
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-alt) 100%);
-  text-align: center;
-  padding: var(--space-xl) 0 calc(var(--space-xl) * 1.5);
+  text-align: left;
 }
 
 .hero h1 {
@@ -128,8 +128,7 @@ section {
 .hero-description {
   font-size: 1.125rem;
   color: var(--color-text-secondary);
-  max-width: 600px;
-  margin: 0 auto var(--space-lg);
+  max-width: 550px;
 }
 
 .hero-highlights {
