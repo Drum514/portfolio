@@ -139,7 +139,7 @@ section {
 }
 
 .highlight {
-  background: var(--color-surface);
+  background: #bacdc991;
   padding: var(--space-lg);
   border-radius: 8px;
   box-shadow: var(--shadow-sm);
@@ -201,7 +201,7 @@ section {
 }
 
 .expertise-area {
-  background: var(--color-surface-alt);
+  background: #bacdc991;
   padding: var(--space-lg);
   border-radius: 8px;
   border: 2px solid var(--color-border);
@@ -237,7 +237,7 @@ section {
 .achievements li {
   margin-bottom: var(--space-sm);
   padding: var(--space-sm);
-  background: var(--color-surface-alt);
+  background: #bacdc991;
   border-radius: 6px;
   border-left: 4px solid var(--color-primary);
 }
@@ -258,7 +258,7 @@ section {
 }
 
 .project-card {
-  background: var(--color-surface);
+  background: #bacdc991;
   border-radius: 12px;
   padding: var(--space-lg);
   box-shadow: var(--shadow-md);
